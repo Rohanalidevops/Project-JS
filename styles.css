@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+
+
+    /* Set the background image */
+    background-image: url('D:\Project\lianhao-qu-lX3HgbzZ40w-unsplash.jpg');
+    
+    /* You can adjust the following properties as needed */
+    background-size: cover;  /* This will make the image cover the entire body */
+    background-position: center; /* This will center the image */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Define styles for the light theme */
+.light-theme {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --button-color: #007bff;
+    --button-text-color: #ffffff;
+}
+
+/* Define styles for the dark theme */
+.dark-theme {
+    --background-color: #333333;
+    --text-color: #ffffff;
+    --button-color: #007bff;
+    --button-text-color: #ffffff;
+}
+
+/* Apply CSS variables to the body */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+button {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+}
+
+/* Add other CSS rules here as needed */
+
